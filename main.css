@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.MAİN{
+    width: 100%;
+    height: 100%;
+}
+
+.main_Div{
+    margin: 50px 0 0 10px;
+    display: inline-block;
+    width: 25rem;
+    height: 39rem;
+}
+
+.img_Div{
+    position: relative;
+    width: 25rem;
+    height: 32rem;
+}
+
+.mainImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.bottom_Div{
+    width: 100%;
+    height: 6rem;
+}
+
+.ürn_Name{
+    margin-top: 10px;
+    display: block;
+    font-family: "Montserrat";
+}
+
+.ürn_Fiyat{
+    margin-top: 7px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.add_Btn{
+    margin-top: 17px;
+    border: none;
+    border: 1px solid #585858;
+    font-family: "Montserrat";
+    font-size: 16px;
+    width: 100%;
+    height: 50%;
+    display: block;
+    cursor: pointer;
+    transition: 0.35s;
+}
+
+.add_Btn:hover{
+    border: 1px solid #fff;
+    background-color: #1b1b1b;
+    color: #fff;
+}

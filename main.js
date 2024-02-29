@@ -5,7 +5,7 @@ img.classList.add("mainImg");
 const MAİN = document.querySelector(".MAİN");
 
 
-//TODO---------------------------------------------------------
+
 
 
 
@@ -16,6 +16,7 @@ const addHTML = async () => {
 
       const mainDiv = document.createElement("div");
       mainDiv.classList.add("main_Div");
+      mainDiv.classList.add("headline");
 
       let imgDiv = document.createElement("div");
       imgDiv.classList.add("img_Div");

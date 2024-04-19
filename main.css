@@ -63,3 +63,21 @@
     background-color: #1b1b1b;
     color: #fff;
 }
+
+.container{
+    position: relative;
+    background-color: #f8f8f8;
+    height: 50px;
+}
+
+.Menü{
+    position: absolute;
+    margin: 15px;
+    
+}
+
+.Logos{
+    position: absolute;
+    right: 0px;
+    margin: 15px;
+}

@@ -1,51 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.MAİN{
+.MAİN {
     width: 100%;
     height: 100%;
 }
 
-.main_Div{
+.main_Div {
     margin: 50px 0 0 10px;
     display: inline-block;
     width: 25rem;
     height: 39rem;
 }
 
-.img_Div{
+.img_Div {
     position: relative;
     width: 25rem;
     height: 32rem;
 }
 
-.mainImg{
+.mainImg {
     position: absolute;
     width: 100%;
     height: 100%;
     cursor: pointer;
 }
 
-.bottom_Div{
-    width: 100%;
+.bottom_Div {
     height: 6rem;
 }
 
-.ürn_Name{
+.ürn_Name {
     margin-top: 10px;
     display: block;
     font-family: "Montserrat";
 }
 
-.ürn_Fiyat{
+.ürn_Fiyat {
     margin-top: 7px;
     display: block;
     font-family: sans-serif;
 }
 
-.add_Btn{
+.add_Btn {
     margin-top: 17px;
     border: none;
     border: 1px solid #585858;
@@ -58,26 +57,75 @@
     transition: 0.35s;
 }
 
-.add_Btn:hover{
+.add_Btn:hover {
     border: 1px solid #fff;
     background-color: #1b1b1b;
     color: #fff;
 }
 
-.container{
+.container {
     position: relative;
     background-color: #f8f8f8;
     height: 50px;
 }
 
-.Menü{
+.Menü {
     position: absolute;
     margin: 15px;
     
 }
 
-.Logos{
+.Logos {
     position: absolute;
     right: 0px;
     margin: 15px;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    background-color: #eeeeee;
+}
+
+.bar {
+    margin: 18px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #afafaf;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1f1f1f;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #636363;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.span {
+    margin-left: 10px;
 }

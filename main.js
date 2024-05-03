@@ -13,12 +13,19 @@ function checkIfNearBottom() {
   }
 }
 
-//TODO---------------------------------------------------------
+//TODO--------------------------------------------------------- 
 
 function callProduct() {
     fetch("https://farktorapi.com/new/?company=Fr-5500191&category=47170&page=" + page)
       .then(response => response.json())
       .then(data => {
+        // let imgName = Array.isArray(data) ? data : [data];
+        // ürnName.innerHTML = imgName[0].products[i].name;
+        // ürnFiyat.innerHTML = imgName[0].products[i].priceMarket + " TL";
+
+        // let imgSrc = Array.isArray(data) ? data : [data];
+        // imgSrc = "https://images.farktorcdn.com/img/800x1200/Library/Upl/5500191/Product/" + imgSrc[0].products[i].photo;
+        // img.src = imgSrc;
         addHTML(data?.products);
         page++;
         console.log(data)
@@ -29,7 +36,7 @@ function callProduct() {
   }
 
 const addHTML = async (products) => {
-    products.map((perItem, photo)=>{
+    products.map((perItem)=>{
         const img = document.createElement("img");
         img.classList.add("mainImg");
         img.src = "https://images.farktorcdn.com/img/800x1200/Library/Upl/5500191/Product/" + perItem.photo;
@@ -64,3 +71,11 @@ const addHTML = async (products) => {
         MAİN.append(mainDiv);
     })
 };
+
+function openNav() {
+  document.getElementById("YanMenu").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("YanMenu").style.width = "0";
+}
